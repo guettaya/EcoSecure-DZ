@@ -6,28 +6,28 @@
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-### 📱 1. Citizen Super App (Gamification)
+###  1. Citizen Super App (Gamification)
 * **Scan & Earn:** Simulated Computer Vision interface to scan waste items.
 * **Eco-Points System:** Earn points for every recyclable item scanned.
 * **Local Rewards:** Redeem points for **Flexy** (Mobile Credit: Mobilis, Djezzy, Ooredoo), Cinema tickets, and Metro d'Alger passes.
 * **Wallet:** Real-time balance tracking.
 
-### 🏭 2. B2B Industrial Marketplace
+###  2. B2B Industrial Marketplace
 * **Waste Trading:** A digital market for trading raw materials like *Iron Tailings (Gara Djebilet)*, *Used Cooking Oil*, and *PET Plastics*.
 * **Smart Filtering:** Filter listings by category (Mining, Organic, Plastic).
 * **Negotiation Engine:** A specialized bidding system allowing buyers to negotiate prices (+/- 100 DA) directly with sellers.
 * **Detailed Insights:** View purity percentages, quality grades, and available quantities.
 
-### 🚛 3. Smart Logistics (AI Routing)
+###  3. Smart Logistics (AI Routing)
 * **VRP Solver:** Implements the **Traveling Salesperson Problem (TSP)** algorithm using the Nearest Neighbor logic.
 * **Interactive Map:** Visualizes the optimal route to collect waste from filled containers (Zone A, B, C, D) back to the Depot.
 * **Cost Efficiency:** Calculates collected waste volume and optimized travel distance to reduce fuel consumption.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.9+
 * **UI Framework:** [NiceGUI](https://nicegui.io/) (Vue.js based Python wrapper)
@@ -37,7 +37,7 @@
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 Ensure you have Python installed on your system.
