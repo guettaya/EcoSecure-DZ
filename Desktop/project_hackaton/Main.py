@@ -426,14 +426,14 @@ def show_flexy_dialog(refresh_callback):
         
         ui.label('Select Amount').classes('text-xs font-bold text-gray-400 uppercase tracking-wider mb-2')
         # أسعار أعلى وأكثر واقعية
-        amounts = [(500, 400), (1000, 750), (2000, 1400), (5000, 3200)]
+        amounts = [(1, 1500), (2, 3000), (5, 45000), (10, 10000)]
         selected = ui.number(value=500).classes('hidden')
         
         for amount, cost in amounts:
             with ui.row().on('click', lambda a=amount: selected.set_value(a)).classes('w-full bg-gray-50 hover:bg-blue-50 border-2 border-gray-200 rounded-xl p-3 justify-between items-center cursor-pointer mb-2 transition-all'):
                 with ui.column().classes('gap-0'):
-                    ui.label(f"{amount} DA").classes('font-bold text-gray-800 text-lg')
-                    ui.label('Flexy Credit').classes('text-[10px] text-gray-400')
+                    ui.label(f"{amount} GO").classes('font-bold text-gray-800 text-lg')
+                    ui.label('internet gift').classes('text-[10px] text-gray-400')
                 ui.label(f"{cost} PTS").classes('text-sm font-bold text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full')
         
         async def redeem():
